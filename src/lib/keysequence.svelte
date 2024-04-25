@@ -5,7 +5,6 @@
   
   function onKeyDown(e: KeyboardEvent) {
     if (e.key in DirectionKeys) {
-      // feed the code to the state machine
       console.log(e.key)
     } else {
       console.log('not a direction key')
